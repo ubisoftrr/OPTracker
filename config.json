@@ -1,0 +1,63 @@
+{
+  "check_interval_minutes": 15,
+
+  "products": [
+    {
+      "name": "OP17 Booster Display (EN) - Miki's Card Shop",
+      "url": "https://www.mikiscardshop.at/products/one-piece-card-game-booster-display-op-17-englisch-vorbestellung"
+    },
+    {
+      "name": "OP17 Booster Display (JP) - KartenHeinz",
+      "url": "https://kartenheinz.de/products/op17-booster-display-pre-order-japanisch"
+    },
+    {
+      "name": "OP17 Preorder Box - S-Games",
+      "url": "https://s-games.at/products/preorder-box-one-piece-card-game-op17-tcg"
+    },
+    {
+      "name": "OP17 - The Mana Shop (CH)",
+      "url": "https://themanashop.ch/de/495-one-piece-card-game"
+    },
+    {
+      "name": "OP17 Booster Display (JP) - HOLYGRADE (CH)",
+      "url": "https://holygrade.com/en/products/one-piece-card-game-the-worlds-strongest-warriors-op-17-japanese-pre-order"
+    }
+  ],
+
+  "unavailable_keywords": [
+    "ausverkauft",
+    "nicht verfügbar",
+    "nicht auf lager",
+    "nicht bestellbar",
+    "derzeit nicht bestellbar",
+    "sold out",
+    "out of stock",
+    "not available",
+    "currently unavailable"
+  ],
+
+  "available_keywords": [
+    "in den warenkorb",
+    "add to cart",
+    "auf lager",
+    "verfügbar",
+    "jetzt kaufen",
+    "buy now",
+    "in stock"
+  ],
+
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "DEINE_ABSENDER_EMAIL@gmail.com",
+    "sender_password": "DEIN_APP_PASSWORT",
+    "recipient_email": "DEINE_EMPFAENGER_EMAIL@example.com"
+  },
+
+  "telegram": {
+    "enabled": true,
+    "bot_token": "DEIN_TELEGRAM_BOT_TOKEN",
+    "chat_id": "DEINE_CHAT_ID"
+  }
+}
