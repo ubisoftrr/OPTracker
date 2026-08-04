@@ -1,1 +1,27 @@
-{}
+{
+  "https://www.mikiscardshop.at/products/one-piece-card-game-booster-display-op-17-englisch-vorbestellung": {
+    "name": "OP17 Booster Display (EN) - Miki's Card Shop",
+    "status": "ausverkauft",
+    "last_checked": "2026-08-04T22:20:53.698873"
+  },
+  "https://kartenheinz.de/products/op17-booster-display-pre-order-japanisch": {
+    "name": "OP17 Booster Display (JP) - KartenHeinz",
+    "status": "ausverkauft",
+    "last_checked": "2026-08-04T22:20:54.324206"
+  },
+  "https://s-games.at/products/preorder-box-one-piece-card-game-op17-tcg": {
+    "name": "OP17 Preorder Box - S-Games",
+    "status": "ausverkauft",
+    "last_checked": "2026-08-04T22:20:55.542952"
+  },
+  "https://themanashop.ch/de/495-one-piece-card-game": {
+    "name": "OP17 - The Mana Shop (CH)",
+    "status": "ausverkauft",
+    "last_checked": "2026-08-04T22:20:58.543949"
+  },
+  "https://holygrade.com/en/products/one-piece-card-game-the-worlds-strongest-warriors-op-17-japanese-pre-order": {
+    "name": "OP17 Booster Display (JP) - HOLYGRADE (CH)",
+    "status": "verfügbar",
+    "last_checked": "2026-08-04T22:20:59.129653"
+  }
+}
