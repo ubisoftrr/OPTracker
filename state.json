@@ -1,1 +1,97 @@
-{}
+{
+  "https://tcg-paradies.company.site/": {
+    "name": "TCG Paradies",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:34.006372"
+  },
+  "https://pikaversum.ch/collections/one-piece-tcg": {
+    "name": "Pikaversum",
+    "status": "gelistet - status unklar",
+    "last_checked": "2026-08-04T23:09:34.966586"
+  },
+  "https://themanashop.ch/de/495-one-piece-card-game": {
+    "name": "The Mana Shop",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:40.237470"
+  },
+  "https://cardcollectors.ch/one-piece/": {
+    "name": "CardCollectors",
+    "status": "gelistet - status unklar",
+    "last_checked": "2026-08-04T23:09:41.546074"
+  },
+  "https://theuncommonshop.ch/shop/One-Piece-Karten-c133128582": {
+    "name": "The Uncommon Shop",
+    "status": "gelistet - status unklar",
+    "last_checked": "2026-08-04T23:09:42.708497"
+  },
+  "https://amazingtoys.ch/Entdecke-TCGs/One-Piece-TCG/": {
+    "name": "Amazingtoys",
+    "status": "gelistet - status unklar",
+    "last_checked": "2026-08-04T23:09:44.116821"
+  },
+  "https://www.goodgamesbern.ch/one-piece/": {
+    "name": "Good Games Bern",
+    "status": "fehler",
+    "last_checked": "2026-08-04T23:09:44.382660"
+  },
+  "https://www.tcgschweiz.ch/tcg/one-piece": {
+    "name": "TCG Schweiz",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:45.257161"
+  },
+  "https://zadoys.ch/collections/one-piece": {
+    "name": "Zadoys",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:46.600294"
+  },
+  "https://holygrade.com/en/products/one-piece-card-game-the-worlds-strongest-warriors-op-17-japanese-pre-order": {
+    "name": "HOLYGRADE - OP17 Produktseite",
+    "status": "gelistet - status unklar",
+    "last_checked": "2026-08-04T23:09:47.071740"
+  },
+  "https://n8owlcards.com/collections/one-piece-card-game": {
+    "name": "n8owlcards",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:47.910219"
+  },
+  "https://tcglab.ch/andere-tcgccg/one-piece/": {
+    "name": "TCGLab.ch",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:48.654509"
+  },
+  "https://www.wog.ch/index.cfm/productfamily/type/Toys/extendedView/1/title/One-Piece-Card-Game": {
+    "name": "WOG.ch",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:50.703055"
+  },
+  "https://www.mrpackhouse.ch/collections/one-piece": {
+    "name": "Mr. Packhouse",
+    "status": "gelistet - status unklar",
+    "last_checked": "2026-08-04T23:09:51.980540"
+  },
+  "https://primeprotector.at/collections/one-piece-tcg": {
+    "name": "Prime Protector (AT, kein CH-Shop)",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:52.833520"
+  },
+  "https://www.twomoons.ch/en/one-piece/": {
+    "name": "TwoMoons",
+    "status": "gelistet - status unklar",
+    "last_checked": "2026-08-04T23:09:54.650767"
+  },
+  "https://www.maro-shop.ch/collections/one-piece": {
+    "name": "MaRo Games",
+    "status": "gelistet - status unklar",
+    "last_checked": "2026-08-04T23:09:55.104309"
+  },
+  "https://poke-swiss.ch/en/collections/one-piece": {
+    "name": "Poke Swiss",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:56.111624"
+  },
+  "https://cardmaniac.ch/en/collections/one-piece": {
+    "name": "Cardmaniac.ch",
+    "status": "nicht gelistet",
+    "last_checked": "2026-08-04T23:09:56.959380"
+  }
+}
