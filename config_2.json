@@ -1,0 +1,202 @@
+{
+  "check_interval_minutes": 15,
+
+  "target_keywords": [
+    "op17",
+    "op-17",
+    "op 17",
+    "dp12",
+    "dp-12",
+    "dp 12",
+    "world's strongest warriors",
+    "worlds strongest warriors",
+    "world strongest warriors",
+    "the world's strongest warriors",
+    "die stärksten krieger der welt",
+    "stärksten krieger",
+    "double pack set 17",
+    "double pack op17",
+    "double pack op-17",
+    "op17 booster",
+    "op-17 booster",
+    "op17 display",
+    "op-17 display",
+    "op17 booster display",
+    "op17 booster pack",
+    "dp12 booster",
+    "dp-12 double pack",
+    "3rd anniversary",
+    "3rd anniversary set",
+    "third anniversary",
+    "anniversary set"
+  ],
+
+  "shops": [
+    {
+      "name": "TCG Paradies",
+      "url": "https://tcg-paradies.company.site/"
+    },
+    {
+      "name": "Pikaversum",
+      "url": "https://pikaversum.ch/collections/one-piece-tcg"
+    },
+    {
+      "name": "The Mana Shop",
+      "url": "https://themanashop.ch/de/495-one-piece-card-game"
+    },
+    {
+      "name": "CardCollectors",
+      "url": "https://cardcollectors.ch/one-piece/"
+    },
+    {
+      "name": "The Uncommon Shop",
+      "url": "https://theuncommonshop.ch/shop/One-Piece-Karten-c133128582"
+    },
+    {
+      "name": "Amazingtoys",
+      "url": "https://amazingtoys.ch/Entdecke-TCGs/One-Piece-TCG/"
+    },
+    {
+      "name": "Good Games Bern",
+      "url": "https://www.goodgamesbern.ch/one-piece/"
+    },
+    {
+      "name": "TCG Schweiz",
+      "url": "https://www.tcgschweiz.ch/tcg/one-piece"
+    },
+    {
+      "name": "Zadoys",
+      "url": "https://zadoys.ch/collections/one-piece"
+    },
+    {
+      "name": "HOLYGRADE - OP17 Produktseite",
+      "url": "https://holygrade.com/en/products/one-piece-card-game-the-worlds-strongest-warriors-op-17-japanese-pre-order"
+    },
+    {
+      "name": "n8owlcards",
+      "url": "https://n8owlcards.com/collections/one-piece-card-game"
+    },
+    {
+      "name": "TCGLab.ch",
+      "url": "https://tcglab.ch/andere-tcgccg/one-piece/"
+    },
+    {
+      "name": "WOG.ch",
+      "url": "https://www.wog.ch/de/index.cfm/details/product/242238-One-Piece-Card-Game-The-World-Strongest-Warriors-Booster-Display-EN"
+    },
+    {
+      "name": "WOG.ch - 3rd Anniversary Set",
+      "url": "https://www.wog.ch/de/index.cfm/details/product/240944-One-Piece-Card-Game-English-3rd-Anniversary-Set-EN"
+    },
+    {
+      "name": "Mr. Packhouse",
+      "url": "https://www.mrpackhouse.ch/collections/one-piece"
+    },
+    {
+      "name": "Prime Protector (AT, kein CH-Shop)",
+      "url": "https://primeprotector.at/collections/one-piece-tcg"
+    },
+    {
+      "name": "TwoMoons",
+      "url": "https://www.twomoons.ch/en/one-piece/"
+    },
+    {
+      "name": "MaRo Games",
+      "url": "https://www.maro-shop.ch/collections/one-piece"
+    },
+    {
+      "name": "Poke Swiss",
+      "url": "https://poke-swiss.ch/en/collections/one-piece"
+    },
+    {
+      "name": "Cardmaniac.ch",
+      "url": "https://cardmaniac.ch/en/collections/one-piece"
+    },
+    {
+      "name": "Pi Cards (Romandie)",
+      "url": "https://picards.ch/"
+    },
+    {
+      "name": "Japhunter",
+      "url": "https://japhunter.ch/collections/display-one-piece"
+    },
+    {
+      "name": "Kyzuna (Orbe VD, Romandie)",
+      "url": "https://kyzuna.store/boutique"
+    },
+    {
+      "name": "CrispyCards (DE, liefert CH)",
+      "url": "https://crispycards.de/collections/one-piece"
+    },
+    {
+      "name": "SpielRaum (AT, liefert CH)",
+      "url": "https://www.spielraum.co.at/de/one-piece"
+    },
+    {
+      "name": "SparkLeaf TCG",
+      "url": "https://sparkleaf.ch/en/collections/one-piece-tcg"
+    },
+    {
+      "name": "Naxoria",
+      "url": "https://naxoria.ch/produkt-kategorie/onepiece/"
+    },
+    {
+      "name": "Zaibatsu",
+      "url": "https://zaibatsu.ch/en/collections/one-piece-alle-produkte"
+    },
+    {
+      "name": "Swiss Rares",
+      "url": "https://swissrares.ch/collections/one-piece-booster-boxes"
+    },
+    {
+      "name": "TCG Treasure (Zürich)",
+      "url": "https://tcg-treasure.com/de/"
+    },
+    {
+      "name": "CardTreasure.ch",
+      "url": "https://cardtreasure.ch/collections/one-piece-tcg"
+    }
+  ],
+
+  "unavailable_keywords": [
+    "ausverkauft",
+    "nicht verfügbar",
+    "nicht auf lager",
+    "nicht bestellbar",
+    "derzeit nicht bestellbar",
+    "sold out",
+    "out of stock",
+    "not available",
+    "currently unavailable",
+    "pre-orders are not open yet",
+    "noch nicht erschienen",
+    "kann noch nicht vorbestellt werden"
+  ],
+
+  "available_keywords": [
+    "in den warenkorb",
+    "add to cart",
+    "auf lager",
+    "verfügbar",
+    "jetzt kaufen",
+    "buy now",
+    "in stock",
+    "jetzt vorbestellen",
+    "pre-order jetzt live"
+  ],
+
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "DEINE_ABSENDER_EMAIL@gmail.com",
+    "sender_password": "DEIN_APP_PASSWORT",
+    "recipient_email": "DEINE_EMPFAENGER_EMAIL@example.com"
+  },
+
+  "telegram": {
+    "enabled": true,
+    "bot_token": "DEIN_TELEGRAM_BOT_TOKEN",
+    "chat_id": "DEINE_CHAT_ID"
+  }
+}
