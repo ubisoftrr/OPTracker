@@ -2,10 +2,10 @@ name: OP17 Tracker
 
 on:
   schedule:
-    # Alle 15 Minuten. Cron ist in UTC.
+    # Alle 5 Minuten. Cron ist in UTC.
     # Achtung: GitHub garantiert keine exakte Minute, kann sich um ein paar
     # Minuten verzögern, besonders bei viel Last auf GitHub Actions.
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}   # erlaubt manuelles Auslösen über den "Run workflow" Button
 
 # Damit der Workflow den aktualisierten Status zurück ins Repo committen darf
