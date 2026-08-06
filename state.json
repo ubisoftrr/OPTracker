@@ -7,38 +7,38 @@
   "https://pikaversum.ch/collections/one-piece-tcg": {
     "name": "Pikaversum",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:55:55.591043"
+    "last_checked": "2026-08-06T14:01:37.197686"
   },
   "https://themanashop.ch/de/495-one-piece-card-game": {
     "name": "The Mana Shop",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:55:57.873429"
+    "last_checked": "2026-08-06T14:01:41.224480"
   },
   "https://cardcollectors.ch/one-piece/": {
     "name": "CardCollectors",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:03.601798"
+    "last_checked": "2026-08-06T14:01:47.100269"
   },
   "https://theuncommonshop.ch/shop/One-Piece-Karten-c133128582": {
     "name": "The Uncommon Shop",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:04.604752"
+    "last_checked": "2026-08-06T14:01:50.817063"
   },
   "https://amazingtoys.ch/Entdecke-TCGs/One-Piece-TCG/": {
     "name": "Amazingtoys",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:07.246616"
+    "last_checked": "2026-08-06T14:01:53.202939"
   },
   "https://www.goodgamesbern.ch/one-piece/": {
     "name": "Good Games Bern",
     "status": "fehler (HTTP 403)",
     "last_error": "fehler (HTTP 403)",
-    "last_checked": "2026-08-06T13:56:07.550112"
+    "last_checked": "2026-08-06T14:01:53.477458"
   },
   "https://www.tcgschweiz.ch/tcg/one-piece": {
     "name": "TCG Schweiz",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:08.597726"
+    "last_checked": "2026-08-06T14:01:54.369798"
   },
   "https://zadoys.ch/collections/one-piece": {
     "name": "Zadoys",
@@ -48,17 +48,18 @@
   "https://holygrade.com/en/products/one-piece-card-game-the-worlds-strongest-warriors-op-17-japanese-pre-order": {
     "name": "HOLYGRADE - OP17 Produktseite",
     "status": "gelistet - verfügbar",
-    "last_checked": "2026-08-06T13:56:11.587507"
+    "last_checked": "2026-08-06T14:01:56.762986"
   },
   "https://n8owlcards.com/collections/one-piece-card-game": {
     "name": "n8owlcards",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:12.431680"
+    "last_checked": "2026-08-06T14:01:57.459665"
   },
   "https://tcglab.ch/andere-tcgccg/one-piece/": {
     "name": "TCGLab.ch",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:13.424116"
+    "last_error": "fehler (HTTP 503)",
+    "last_checked": "2026-08-06T14:01:58.588503"
   },
   "https://www.wog.ch/index.cfm/productfamily/type/Toys/extendedView/1/title/One-Piece-Card-Game": {
     "name": "WOG.ch",
@@ -68,78 +69,78 @@
   "https://www.mrpackhouse.ch/collections/one-piece": {
     "name": "Mr. Packhouse",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:18.211716"
+    "last_checked": "2026-08-06T14:02:03.028916"
   },
   "https://primeprotector.at/collections/one-piece-tcg": {
     "name": "Prime Protector (AT, kein CH-Shop)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:19.461507"
+    "last_checked": "2026-08-06T14:02:03.557109"
   },
   "https://www.twomoons.ch/en/one-piece/": {
     "name": "TwoMoons",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:21.511055"
+    "last_checked": "2026-08-06T14:02:05.403911"
   },
   "https://www.maro-shop.ch/collections/one-piece": {
     "name": "MaRo Games",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:22.289064"
+    "last_checked": "2026-08-06T14:02:05.996569"
   },
   "https://poke-swiss.ch/en/collections/one-piece": {
     "name": "Poke Swiss",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:24.025549"
+    "last_checked": "2026-08-06T14:02:07.048935"
   },
   "https://cardmaniac.ch/en/collections/one-piece": {
     "name": "Cardmaniac.ch",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:24.554813"
+    "last_checked": "2026-08-06T14:02:07.765514"
   },
   "https://picards.ch/": {
     "name": "Pi Cards (Romandie)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:25.060579"
+    "last_checked": "2026-08-06T14:02:08.626184"
   },
   "https://japhunter.ch/collections/display-one-piece": {
     "name": "Japhunter",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:26.449654"
+    "last_checked": "2026-08-06T14:02:09.680590"
   },
   "https://kyzuna.store/boutique": {
     "name": "Kyzuna (Orbe VD, Romandie)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:27.101636"
+    "last_checked": "2026-08-06T14:02:10.188195"
   },
   "https://crispycards.de/collections/one-piece": {
     "name": "CrispyCards (DE, liefert CH)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:27.785878"
+    "last_checked": "2026-08-06T14:02:11.093514"
   },
   "https://www.spielraum.co.at/de/one-piece": {
     "name": "SpielRaum (AT, liefert CH)",
     "status": "fehler (HTTP 403)",
     "last_error": "fehler (HTTP 403)",
-    "last_checked": "2026-08-06T13:56:28.087261"
+    "last_checked": "2026-08-06T14:02:11.258787"
   },
   "https://sparkleaf.ch/en/collections/one-piece-tcg": {
     "name": "SparkLeaf TCG",
     "status": "gelistet - verfügbar",
-    "last_checked": "2026-08-06T13:56:28.651545"
+    "last_checked": "2026-08-06T14:02:11.688172"
   },
   "https://naxoria.ch/produkt-kategorie/onepiece/": {
     "name": "Naxoria",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:30.440653"
+    "last_checked": "2026-08-06T14:02:13.578231"
   },
   "https://zaibatsu.ch/en/collections/one-piece-alle-produkte": {
     "name": "Zaibatsu",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:31.080428"
+    "last_checked": "2026-08-06T14:02:14.035190"
   },
   "https://swissrares.ch/collections/one-piece-booster-boxes": {
     "name": "Swiss Rares",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:31.667285"
+    "last_checked": "2026-08-06T14:02:14.558729"
   },
   "https://tcg-treasure.com/de/": {
     "name": "TCG Treasure (Zürich)",
@@ -149,219 +150,219 @@
   "https://cardtreasure.ch/collections/one-piece-tcg": {
     "name": "CardTreasure.ch",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:32.348691"
+    "last_checked": "2026-08-06T14:02:15.157432"
   },
   "https://www.wog.ch/de/index.cfm/details/product/242238-One-Piece-Card-Game-The-World-Strongest-Warriors-Booster-Display-EN": {
     "name": "WOG.ch",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:15.287132"
+    "last_checked": "2026-08-06T14:01:59.987848"
   },
   "https://www.wog.ch/de/index.cfm/details/product/240944-One-Piece-Card-Game-English-3rd-Anniversary-Set-EN": {
     "name": "WOG.ch - 3rd Anniversary Set",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:17.192056"
+    "last_checked": "2026-08-06T14:02:02.396984"
   },
   "https://themanashop.ch/en/one-piece-card-game/46238-one-piece-card-game-op-17-booster-display-24-packs.html": {
     "name": "The Mana Shop - OP17 Booster Display",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:55:59.379192"
+    "last_checked": "2026-08-06T14:01:42.815418"
   },
   "https://themanashop.ch/en/accessories/46180-one-piece-card-game-english-3rd-anniversary-set.html": {
     "name": "The Mana Shop - 3rd Anniversary Set EN",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:00.836430"
+    "last_checked": "2026-08-06T14:01:44.512320"
   },
   "https://themanashop.ch/en/accessories/45978-one-piece-card-game-japanese-3rd-anniversary-set-en.html": {
     "name": "The Mana Shop - Japanese 3rd Anniversary Set",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:02.557919"
+    "last_checked": "2026-08-06T14:01:46.005564"
   },
   "https://zadoys.ch/collections/one-piece-booster-englisch": {
     "name": "Zadoys",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:09.396453"
+    "last_checked": "2026-08-06T14:01:54.851491"
   },
   "https://zadoys.ch/collections/one-piece-display-englisch": {
     "name": "Zadoys - Display",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:10.025356"
+    "last_checked": "2026-08-06T14:01:55.447156"
   },
   "https://zadoys.ch/collections/one-piece-trading-card-game-display-franzosisch": {
     "name": "Zadoys - Display Französisch",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:10.419607"
+    "last_checked": "2026-08-06T14:01:55.809090"
   },
   "https://zadoys.ch/products/one-piece-card-game-english-3rd-anniversary-set-englisch": {
     "name": "Zadoys - 3rd Anniversary Set",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:11.039272"
+    "last_checked": "2026-08-06T14:01:56.377119"
   },
   "https://www.maro-shop.ch/products/one-piece-japanese-3rd-anniversary-set-en": {
     "name": "MaRo Games - Japanese 3rd Anniversary Set",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:22.814662"
+    "last_checked": "2026-08-06T14:02:06.363146"
   },
   "https://www.pokepas.ch/en": {
     "name": "Poképas",
     "status": "fehler",
     "last_error": "fehler",
-    "last_checked": "2026-08-06T13:56:32.987446"
+    "last_checked": "2026-08-06T14:02:15.824178"
   },
   "https://pokealp.ch/en/collections/one-piece-precommandes": {
     "name": "PokeAlp (Genève)",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:34.242306"
+    "last_checked": "2026-08-06T14:02:16.660399"
   },
   "https://shop.kabooom.ch/trading-card-games-5/": {
     "name": "KABOOOM (Zürich)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:35.255547"
+    "last_checked": "2026-08-06T14:02:17.517663"
   },
   "https://skylinecards.ch/": {
     "name": "Skyline Cards",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:35.734520"
+    "last_checked": "2026-08-06T14:02:17.986631"
   },
   "https://www.tradingcardcave.ch/collections": {
     "name": "TradingCardCave.ch",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:36.572366"
+    "last_checked": "2026-08-06T14:02:18.658117"
   },
   "https://www.tcg-oftringen.ch/": {
     "name": "TCG Oftringen",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:37.080079"
+    "last_checked": "2026-08-06T14:02:18.916055"
   },
   "https://tradingcardstore.ch/": {
     "name": "Animenia / TradingCardStore.ch (Wallisellen)",
     "status": "fehler",
     "last_error": "fehler",
-    "last_checked": "2026-08-06T13:56:38.348839"
+    "last_checked": "2026-08-06T14:02:19.961833"
   },
   "https://bd-cards.ch/": {
     "name": "Black Diamond Cards (Flawil)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:39.942243"
+    "last_checked": "2026-08-06T14:02:20.502092"
   },
   "https://www.tradingcardaddicts.ch/": {
     "name": "Broggi Trading Card Addicts (Basel)",
     "status": "fehler",
     "last_error": "fehler",
-    "last_checked": "2026-08-06T13:56:40.720387"
+    "last_checked": "2026-08-06T14:02:21.018502"
   },
   "https://www.carab.ch/": {
     "name": "CARAB (Luzern)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:41.909180"
+    "last_checked": "2026-08-06T14:02:21.620398"
   },
   "https://www.wellplayed.ch/": {
     "name": "WellPlayed (Zürich)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:43.807709"
+    "last_checked": "2026-08-06T14:02:22.445073"
   },
   "https://www.farfetchd.ch/": {
     "name": "farfetchd.ch (Derendingen)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:44.642841"
+    "last_checked": "2026-08-06T14:02:22.860170"
   },
   "https://freakatoriumsshop.ch/": {
     "name": "Freakatorium (Emmenbrücke)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:49.077156"
+    "last_checked": "2026-08-06T14:02:26.324017"
   },
   "https://www.gleis934.ch/": {
     "name": "Gleis 9¾ (Winterthur)",
     "status": "fehler",
     "last_error": "fehler",
-    "last_checked": "2026-08-06T13:56:49.824743"
+    "last_checked": "2026-08-06T14:02:26.867666"
   },
   "https://www.la-thune.ch/": {
     "name": "LA THUNE (Biel-Bienne)",
     "status": "fehler",
     "last_error": "fehler",
-    "last_checked": "2026-08-06T13:56:50.626102"
+    "last_checked": "2026-08-06T14:02:27.289401"
   },
   "https://maro-games.ch/": {
     "name": "MaRo Games (offiziell, Birsfelden)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:51.613629"
+    "last_checked": "2026-08-06T14:02:28.605493"
   },
   "https://www.tcgshop.ch/": {
     "name": "Merchant Guild / TCG Shop (St. Gallen)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:53.796104"
+    "last_checked": "2026-08-06T14:02:30.797291"
   },
   "https://www.tcgligamurten.ch/": {
     "name": "TCG Liga Murten (Trimbach)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:55.296477"
+    "last_checked": "2026-08-06T14:02:32.152118"
   },
   "https://tepe-tcg.ch/": {
     "name": "Tepeluk TCG (Rorschacherberg)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:57.196333"
+    "last_checked": "2026-08-06T14:02:33.881398"
   },
   "https://thebluesamurai.com/": {
     "name": "The Blue Samurai (Ebikon)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:57.540705"
+    "last_checked": "2026-08-06T14:02:34.194247"
   },
   "https://www.thesecretcardshop.ch/": {
     "name": "The Secret Card Shop (Brugg)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:57:00.827915"
+    "last_checked": "2026-08-06T14:02:35.271381"
   },
   "https://castlegames.ch/": {
     "name": "CastleGames (Zürich)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:57:01.675971"
+    "last_checked": "2026-08-06T14:02:36.002207"
   },
   "https://houseofcards.ch/": {
     "name": "House of Cards (Bern)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:57:04.079997"
+    "last_checked": "2026-08-06T14:02:37.385766"
   },
   "https://www.manor.ch/de/produktkollektionen/one-piece/kartenspiele/h/toys-one-piece/games_puzzle_kartenspiele": {
     "name": "Manor",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:57:05.729179"
+    "last_checked": "2026-08-06T14:02:38.765556"
   },
   "https://www.galaxus.ch/de/s5/producttype/sammelkarten-971/subtype/sammelkarten-spielwelt-one-piece-karten-7179": {
     "name": "Galaxus",
     "status": "fehler (HTTP 403)",
     "last_error": "fehler (HTTP 403)",
-    "last_checked": "2026-08-06T13:57:06.175546"
+    "last_checked": "2026-08-06T14:02:39.074745"
   },
   "https://mueller.ch/spielwaren/marken/one-piece": {
     "name": "Müller",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:57:08.465011"
+    "last_checked": "2026-08-06T14:02:40.855836"
   },
   "https://www.brack.ch/familie-baby/spielwaren/puzzles-spiele/spiele/sammelkarten": {
     "name": "Brack",
     "status": "fehler (timeout)",
     "last_error": "fehler (timeout)",
-    "last_checked": "2026-08-06T13:57:33.772289"
+    "last_checked": "2026-08-06T14:03:06.110761"
   },
   "https://www.mightygames.ch/en/539-one-piece": {
     "name": "Mighty Games (Lausanne)",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:57:34.465252"
+    "last_checked": "2026-08-06T14:03:07.033167"
   },
   "https://cardsdice.ch/": {
     "name": "Cards & Dice (St. Gallen)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:57:35.287105"
+    "last_checked": "2026-08-06T14:03:07.733941"
   },
   "https://magictrade.ch/shop/": {
     "name": "magictrade.ch (Wädenswil)",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:57:37.255698"
+    "last_checked": "2026-08-06T14:03:09.513293"
   },
   "https://www.softridge.ch/de/tcg/one-piece-card-game": {
     "name": "Softridge",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:57:39.144498"
+    "last_checked": "2026-08-06T14:03:10.731416"
   },
   "https://fatamorgana.ch/webshop/one-piece-card-game-booster-display-op-17-release-august-26-2147231505": {
     "name": "Fatamorgana.ch - OP17 Booster Display",
@@ -377,57 +378,58 @@
     "name": "Animerse GmbH",
     "status": "fehler",
     "last_error": "fehler",
-    "last_checked": "2026-08-06T13:55:47.800279"
+    "last_checked": "2026-08-06T14:01:08.726990"
   },
   "https://calandamagic.ch/c/one-piece": {
     "name": "Calanda Magic",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:55:49.353283"
+    "last_checked": "2026-08-06T14:01:09.942092"
   },
   "https://ryu.land/collections/one-piece-pre-orders": {
     "name": "RyuLand (Biel) - Pre-orders",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:55:49.725043"
+    "last_checked": "2026-08-06T14:01:10.460668"
   },
   "https://ryu.land/collections/one-piece": {
     "name": "RyuLand (Biel) - One Piece",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:55:50.168317"
+    "last_checked": "2026-08-06T14:01:10.821883"
   },
   "https://otakuworld.ch/prodotto/one-piece-card-game-booster-display-op-17-24-bustine-eng/": {
     "name": "Otakuworld.ch - OP17 Booster Display",
     "status": "gelistet - ausverkauft",
-    "last_checked": "2026-08-06T13:55:51.322675"
+    "last_checked": "2026-08-06T14:01:11.242420"
   },
   "https://otakuworld.ch/categoria-prodotto/catalogo-shop/carte-collezionabili/one-piece-tcg/": {
     "name": "Otakuworld.ch - One Piece Kategorie (Mendrisio TI)",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:55:51.645190"
+    "last_checked": "2026-08-06T14:01:11.430328"
   },
   "https://xn--drachehhli-kcb.ch/drachehoehli/63-2/one-piece/": {
     "name": "Drache Höhli",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:55:54.794008"
+    "last_error": "fehler",
+    "last_checked": "2026-08-06T14:01:36.766011"
   },
   "https://www.maro-shop.ch/collections/op17-the-worlds-strongest-warriors": {
     "name": "MaRo Games - OP17 The World's Strongest Warriors",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:23.179264"
+    "last_checked": "2026-08-06T14:02:06.582102"
   },
   "https://cardtreasure.ch/de/collections/one-piece-preorders": {
     "name": "CardTreasure.ch - Preorders",
     "status": "nicht gelistet",
-    "last_checked": "2026-08-06T13:56:32.807264"
+    "last_checked": "2026-08-06T14:02:15.611201"
   },
   "https://www.tcg-oftringen.ch/product-page/one-piece-card-game-op-17-booster-display-vorbestellung-4th-anniversary": {
     "name": "TCG Oftringen - OP17 Booster Display",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:37.258907"
+    "last_checked": "2026-08-06T14:02:19.022220"
   },
   "https://manos-treasure.ch/products/one-piece-card-game-op17-booster-display-en": {
     "name": "Manos Treasure - OP17 Booster Display",
     "status": "gelistet - status unklar",
-    "last_checked": "2026-08-06T13:56:37.763455"
+    "last_checked": "2026-08-06T14:02:19.476863"
   },
   "https://tcg-treasure.com/de/product-category/one-piece-de/onepiece_vorbestellungen-de-2/": {
     "name": "TCG Treasure - One Piece Vorbestellungen",
@@ -443,6 +445,6 @@
     "name": "TCG Treasure - One Piece (Vorbestellungen + Display)",
     "status": "nicht gelistet",
     "last_error": "fehler (HTTP 429)",
-    "last_checked": "2026-08-06T13:56:31.802153"
+    "last_checked": "2026-08-06T14:02:14.649561"
   }
 }
