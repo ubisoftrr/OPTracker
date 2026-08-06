@@ -134,16 +134,39 @@ def run_check(config: dict, state: dict) -> dict:
         url = shop["url"]
 
         new_status = check_status(url, config)
-        old_status = state.get(url, {}).get("status")
+        old_entry = state.get(url, {})
+        old_status = old_entry.get("status")
 
         print(f"  {name}: {old_status} -> {new_status}")
 
-        # Beim allerersten Check nur Status speichern, nicht benachrichtigen,
-        # damit man nicht sofort für den Ausgangszustand eine Meldung bekommt.
-        first_check = url not in state
+        is_error = new_status.startswith("fehler")
 
+        if is_error:
+            # Fehler (Bot-Schutz, Timeout, temporär down, ...) überschreiben
+            # den zuletzt bekannten ECHTEN Status nicht. So lösen kurzzeitige
+            # Abrufprobleme keine falschen "Statusänderung"-Meldungen aus,
+            # wenn die Seite beim nächsten Check wieder normal antwortet.
+            state[url] = {
+                "name": name,
+                "status": old_status,  # unverändert lassen
+                "last_error": new_status,
+                "last_checked": datetime.now().isoformat(),
+            }
+            continue
+
+        # Beim allerersten erfolgreichen Check nur Status speichern, nicht
+        # benachrichtigen, damit man nicht sofort für den Ausgangszustand
+        # eine Meldung bekommt.
+        first_check = old_status is None
+
+        # Bei jeder ECHTEN Statusänderung benachrichtigen (neu gelistet,
+        # verfügbar, ausverkauft, nicht mehr gelistet, ...). Fehler lösen
+        # das hier NICHT aus, weil sie oben per "continue" komplett
+        # übersprungen werden und den gespeicherten Status nie verändern.
         if not first_check and new_status != old_status:
-            if new_status == "nicht gelistet":
+            if new_status == "gelistet - verfügbar":
+                subject = f"✅ JETZT VERFÜGBAR: {name}"
+            elif new_status == "nicht gelistet":
                 subject = f"⚠️ Nicht mehr gelistet: {name}"
             elif old_status in (None, "nicht gelistet"):
                 subject = f"🆕 Neu gelistet: {name}"
