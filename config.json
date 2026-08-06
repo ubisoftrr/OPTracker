@@ -1,5 +1,5 @@
 {
-  "check_interval_minutes": 15,
+  "check_interval_minutes": 5,
 
   "target_keywords": [
     "op17",
