@@ -2,9 +2,23 @@ name: OP17 Tracker
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
-  workflow_dispatch: {}
+    # Alle 10 Minuten. Cron ist in UTC.
+    # Achtung: GitHub garantiert keine exakte Minute, kann sich um ein paar
+    # Minuten verzögern, besonders bei viel Last auf GitHub Actions.
+    # Der eigentliche zuverlässige Trigger läuft über cron-job.org (extern),
+    # dieser interne GitHub-Zeitplan ist nur ein Backup.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}   # erlaubt manuelles Auslösen über den "Run workflow" Button
 
+# Verhindert, dass zwei Läufe gleichzeitig laufen und sich beim
+# "state.json"-Commit gegenseitig ins Gehege kommen. Ein neuer Lauf
+# bricht einen älteren, noch laufenden automatisch ab, statt sich
+# endlos in die Warteschlange zu stellen.
+concurrency:
+  group: op17-tracker-v2
+  cancel-in-progress: true
+
+# Damit der Workflow den aktualisierten Status zurück ins Repo committen darf
 permissions:
   contents: write
 
