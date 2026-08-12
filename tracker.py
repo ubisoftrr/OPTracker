@@ -165,14 +165,23 @@ def run_check(config: dict, state: dict) -> dict:
         # Nur "verfügbar" und "ausverkauft" gelten als klare, verlässliche
         # Signale (sie brauchen ein explizites Verfügbarkeits-Keyword) und
         # lösen deshalb SOFORT eine Meldung aus. Alle anderen Übergänge
-        # (zu "nicht gelistet" ODER zu "gelistet - status unklar", in
-        # BEIDE Richtungen) werden erst nach zweimaliger Bestätigung
-        # gemeldet, weil genau diese bei manchen Shops durch inkonsistent
-        # ausgelieferten Seiteninhalt hin- und herflackern können
-        # (z.B. Mana Shop, Fatamorgana, PokéUri).
+        # (zu "nicht gelistet" ODER zu "gelistet - status unklar") werden
+        # erst nach zweimaliger Bestätigung gemeldet, weil genau diese bei
+        # manchen Shops durch inkonsistent ausgelieferten Seiteninhalt hin-
+        # und herflackern können (z.B. Mana Shop, Fatamorgana, PokéUri).
         is_clear_signal = new_status in ("gelistet - verfügbar", "gelistet - ausverkauft")
 
+        # Rückfall von "status unklar" zu "nicht gelistet" ist KEIN echtes
+        # Signal (die Seite war nie eindeutig als verfügbar/ausverkauft
+        # bestätigt) -> komplett stumm, keine Meldung, nur Status merken.
+        is_uninformative_delisting = (
+            new_status == "nicht gelistet" and old_status == "gelistet - status unklar"
+        )
+
         if first_check or new_status == old_status:
+            confirmed_status = new_status
+            new_pending = None
+        elif is_uninformative_delisting:
             confirmed_status = new_status
             new_pending = None
         elif not is_clear_signal and new_status != pending_status:
@@ -189,6 +198,8 @@ def run_check(config: dict, state: dict) -> dict:
 
             if new_status == "gelistet - verfügbar":
                 subject = f"✅ JETZT VERFÜGBAR: {name}"
+            elif new_status == "gelistet - ausverkauft":
+                subject = f"🔴 AUSVERKAUFT: {name}"
             elif new_status == "nicht gelistet":
                 subject = f"⚠️ Nicht mehr gelistet: {name}"
             elif old_status in (None, "nicht gelistet"):
