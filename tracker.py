@@ -149,6 +149,7 @@ def run_check(config: dict, state: dict) -> dict:
             state[url] = {
                 "name": name,
                 "status": old_status,  # unverändert lassen
+                "pending_status": old_entry.get("pending_status"),
                 "last_error": new_status,
                 "last_checked": datetime.now().isoformat(),
             }
@@ -159,11 +160,33 @@ def run_check(config: dict, state: dict) -> dict:
         # eine Meldung bekommt.
         first_check = old_status is None
 
-        # Bei jeder ECHTEN Statusänderung benachrichtigen (neu gelistet,
-        # verfügbar, ausverkauft, nicht mehr gelistet, ...). Fehler lösen
-        # das hier NICHT aus, weil sie oben per "continue" komplett
-        # übersprungen werden und den gespeicherten Status nie verändern.
-        if not first_check and new_status != old_status:
+        pending_status = old_entry.get("pending_status")
+
+        # Nur "verfügbar" und "ausverkauft" gelten als klare, verlässliche
+        # Signale (sie brauchen ein explizites Verfügbarkeits-Keyword) und
+        # lösen deshalb SOFORT eine Meldung aus. Alle anderen Übergänge
+        # (zu "nicht gelistet" ODER zu "gelistet - status unklar", in
+        # BEIDE Richtungen) werden erst nach zweimaliger Bestätigung
+        # gemeldet, weil genau diese bei manchen Shops durch inkonsistent
+        # ausgelieferten Seiteninhalt hin- und herflackern können
+        # (z.B. Mana Shop, Fatamorgana, PokéUri).
+        is_clear_signal = new_status in ("gelistet - verfügbar", "gelistet - ausverkauft")
+
+        if first_check or new_status == old_status:
+            confirmed_status = new_status
+            new_pending = None
+        elif not is_clear_signal and new_status != pending_status:
+            # Unsicherer Übergang, zum ersten Mal -> nur vormerken.
+            confirmed_status = old_status
+            new_pending = new_status
+            print(f"    (Änderung zu '{new_status}' vorgemerkt, noch nicht bestätigt)")
+        else:
+            # Entweder ein klares Signal (sofort), oder der unsichere
+            # Übergang wurde bereits vorgemerkt und tritt jetzt zum
+            # zweiten Mal auf (jetzt bestätigt) -> benachrichtigen.
+            confirmed_status = new_status
+            new_pending = None
+
             if new_status == "gelistet - verfügbar":
                 subject = f"✅ JETZT VERFÜGBAR: {name}"
             elif new_status == "nicht gelistet":
@@ -184,7 +207,8 @@ def run_check(config: dict, state: dict) -> dict:
 
         state[url] = {
             "name": name,
-            "status": new_status,
+            "status": confirmed_status,
+            "pending_status": new_pending,
             "last_checked": datetime.now().isoformat(),
         }
 
