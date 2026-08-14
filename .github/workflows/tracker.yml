@@ -1,19 +1,17 @@
 name: OP17 Tracker
 
 on:
-  schedule:
-    # Alle 10 Minuten. Cron ist in UTC.
-    # Achtung: GitHub garantiert keine exakte Minute, kann sich um ein paar
-    # Minuten verzögern, besonders bei viel Last auf GitHub Actions.
-    # Der eigentliche zuverlässige Trigger läuft über cron-job.org (extern),
-    # dieser interne GitHub-Zeitplan ist nur ein Backup.
-    - cron: "*/10 * * * *"
-  workflow_dispatch: {}   # erlaubt manuelles Auslösen über den "Run workflow" Button
+  # WICHTIG: Bewusst KEIN eigener "schedule"-Trigger mehr hier! Der lief
+  # parallel zum externen cron-job.org-Trigger und hat dadurch alle ~10 Min.
+  # zwei Läufe fast gleichzeitig gestartet, die sich gegenseitig per
+  # Concurrency-Regel abgebrochen/gekillt haben -> abgebrochene/fehlgeschla-
+  # gene Läufe und dadurch inkonsistente state.json-Stände samt Fehlalarmen.
+  # Der einzige Trigger ist jetzt cron-job.org (ruft workflow_dispatch auf).
+  workflow_dispatch: {}   # erlaubt manuelles Auslösen (Button + cron-job.org)
 
 # Verhindert, dass zwei Läufe gleichzeitig laufen und sich beim
 # "state.json"-Commit gegenseitig ins Gehege kommen. Ein neuer Lauf
-# bricht einen älteren, noch laufenden automatisch ab, statt sich
-# endlos in die Warteschlange zu stellen.
+# bricht einen älteren, noch laufenden automatisch ab.
 concurrency:
   group: op17-tracker-v2
   cancel-in-progress: true
