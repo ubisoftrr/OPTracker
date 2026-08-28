@@ -5,6 +5,11 @@ Prüft periodisch die in config.json hinterlegten Produktseiten und
 benachrichtigt per E-Mail/Telegram, sobald sich der Status ändert
 (insbesondere: ausverkauft -> verfügbar).
 
+RELEASE-TAG-MODUS (28.08.2026): Jede Statusänderung wird SOFORT
+gemeldet, ohne Bestätigungslogik - Geschwindigkeit hat heute Vorrang
+vor Fehlalarm-Vermeidung, da Drops innerhalb von Minuten ausverkauft
+sein können.
+
 Nutzung:
     python tracker.py            # läuft dauerhaft im konfigurierten Intervall
     python tracker.py --once     # führt nur einen einzelnen Check aus
@@ -116,9 +121,6 @@ def check_status(url: str, config: dict) -> str:
     is_unavailable = any(kw in text for kw in unavailable_kw)
     is_available = any(kw in text for kw in available_kw)
 
-    # "ausverkauft" schlägt "verfügbar", falls beide Begriffe irgendwo auf
-    # der Seite vorkommen (z.B. weil andere Produkte auf derselben Seite
-    # noch verfügbar sind) -> im Zweifel eher konservativ einstufen.
     if is_unavailable and not is_available:
         return "gelistet - ausverkauft"
     if is_available and not is_unavailable:
@@ -143,59 +145,23 @@ def run_check(config: dict, state: dict) -> dict:
 
         if is_error:
             # Fehler (Bot-Schutz, Timeout, temporär down, ...) überschreiben
-            # den zuletzt bekannten ECHTEN Status nicht. So lösen kurzzeitige
-            # Abrufprobleme keine falschen "Statusänderung"-Meldungen aus,
-            # wenn die Seite beim nächsten Check wieder normal antwortet.
+            # den zuletzt bekannten ECHTEN Status nicht.
             state[url] = {
                 "name": name,
-                "status": old_status,  # unverändert lassen
-                "pending_status": old_entry.get("pending_status"),
+                "status": old_status,
                 "last_error": new_status,
                 "last_checked": datetime.now().isoformat(),
             }
             continue
 
-        # Beim allerersten erfolgreichen Check nur Status speichern, nicht
-        # benachrichtigen, damit man nicht sofort für den Ausgangszustand
-        # eine Meldung bekommt.
         first_check = old_status is None
 
-        pending_status = old_entry.get("pending_status")
-
-        # Nur "verfügbar" und "ausverkauft" gelten als klare, verlässliche
-        # Signale (sie brauchen ein explizites Verfügbarkeits-Keyword) und
-        # lösen deshalb SOFORT eine Meldung aus. Alle anderen Übergänge
-        # (zu "nicht gelistet" ODER zu "gelistet - status unklar") werden
-        # erst nach zweimaliger Bestätigung gemeldet, weil genau diese bei
-        # manchen Shops durch inkonsistent ausgelieferten Seiteninhalt hin-
-        # und herflackern können (z.B. Mana Shop, Fatamorgana, PokéUri).
-        is_clear_signal = new_status in ("gelistet - verfügbar", "gelistet - ausverkauft")
-
-        # Rückfall von "status unklar" zu "nicht gelistet" ist KEIN echtes
-        # Signal (die Seite war nie eindeutig als verfügbar/ausverkauft
-        # bestätigt) -> komplett stumm, keine Meldung, nur Status merken.
-        is_uninformative_delisting = (
-            new_status == "nicht gelistet" and old_status == "gelistet - status unklar"
-        )
-
-        if first_check or new_status == old_status:
-            confirmed_status = new_status
-            new_pending = None
-        elif is_uninformative_delisting:
-            confirmed_status = new_status
-            new_pending = None
-        elif not is_clear_signal and new_status != pending_status:
-            # Unsicherer Übergang, zum ersten Mal -> nur vormerken.
-            confirmed_status = old_status
-            new_pending = new_status
-            print(f"    (Änderung zu '{new_status}' vorgemerkt, noch nicht bestätigt)")
-        else:
-            # Entweder ein klares Signal (sofort), oder der unsichere
-            # Übergang wurde bereits vorgemerkt und tritt jetzt zum
-            # zweiten Mal auf (jetzt bestätigt) -> benachrichtigen.
-            confirmed_status = new_status
-            new_pending = None
-
+        # RELEASE-TAG-MODUS: JEDE Statusänderung wird SOFORT gemeldet,
+        # ohne Bestätigungslogik. Heute (28.08.2026, EN-Release) zählt
+        # Geschwindigkeit mehr als das Vermeiden gelegentlicher
+        # Fehlalarme - ein verpasster Drop wiegt schwerer als eine
+        # überflüssige Meldung.
+        if not first_check and new_status != old_status:
             if new_status == "gelistet - verfügbar":
                 subject = f"✅ JETZT VERFÜGBAR: {name}"
             elif new_status == "gelistet - ausverkauft":
@@ -218,8 +184,7 @@ def run_check(config: dict, state: dict) -> dict:
 
         state[url] = {
             "name": name,
-            "status": confirmed_status,
-            "pending_status": new_pending,
+            "status": new_status,
             "last_checked": datetime.now().isoformat(),
         }
 
