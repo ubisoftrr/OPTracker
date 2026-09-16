@@ -1,6 +1,5 @@
 {
   "check_interval_minutes": 15,
-
   "target_keywords": [
     "op17",
     "op-17",
@@ -30,9 +29,29 @@
     "third anniversary",
     "4th anniversary",
     "810199501970",
-    "4582770058710"
+    "4582770058710",
+    "op18",
+    "op-18",
+    "op 18",
+    "op18 booster",
+    "op-18 booster",
+    "op18 display",
+    "op-18 display",
+    "op18 booster display",
+    "the dominance of god",
+    "dominance of god",
+    "eb05",
+    "eb-05",
+    "eb 05",
+    "eb05 booster",
+    "eb-05 booster",
+    "heroines edition vol.2",
+    "heroines edition vol 2",
+    "heroines edition volume 2",
+    "one piece heroines edition",
+    "heroines special set",
+    "one piece heroines special set"
   ],
-
   "shops": [
     {
       "name": "Animerse GmbH",
@@ -330,7 +349,6 @@
       "name": "Le Loup Bar (Romandie)",
       "url": "https://leloupbar.ch/boutique/?jsf=epro-loop-builder&tax=product_cat:360"
     },
-    
     {
       "name": "Cardlounge.ch",
       "url": "https://www.cardlounge.ch/collections/display-one-piece"
@@ -364,7 +382,6 @@
       "url": "https://pokeuri.ch/collections/one-piece-englisch"
     }
   ],
-
   "unavailable_keywords": [
     "ausverkauft",
     "nicht verfügbar",
@@ -384,7 +401,6 @@
     "back in stock",
     "email you as soon as this product"
   ],
-
   "available_keywords": [
     "in den warenkorb",
     "add to cart",
@@ -396,7 +412,6 @@
     "jetzt vorbestellen",
     "pre-order jetzt live"
   ],
-
   "email": {
     "enabled": false,
     "smtp_server": "smtp.gmail.com",
@@ -405,7 +420,6 @@
     "sender_password": "DEIN_APP_PASSWORT",
     "recipient_email": "DEINE_EMPFAENGER_EMAIL@example.com"
   },
-
   "telegram": {
     "enabled": true,
     "bot_token": "DEIN_TELEGRAM_BOT_TOKEN",
