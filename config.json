@@ -50,7 +50,35 @@
     "heroines edition volume 2",
     "one piece heroines edition",
     "heroines special set",
-    "one piece heroines special set"
+    "one piece heroines special set",
+    "30th celebration elite trainer box",
+    "30th celebration pokemon center elite trainer box",
+    "30th anniversary elite trainer box",
+    "pokemon center elite trainer box 30th",
+    "30th celebration etb",
+    "30th anniversary etb",
+    "30th celebration ultra premium collection",
+    "30th anniversary ultra premium collection",
+    "30th celebration upc",
+    "30th anniversary upc",
+    "day ultra premium collection",
+    "night ultra premium collection",
+    "pikachu ex day upc",
+    "pikachu ex night upc",
+    "30th celebration booster bundle",
+    "30th anniversary booster bundle",
+    "30th celebration display",
+    "30th anniversary display",
+    "ts03",
+    "ts-03",
+    "ts 03",
+    "mini-tin pack set vol.3",
+    "mini tin pack set vol 3",
+    "mini-tin pack set vol 3",
+    "mini tin pack set vol.3",
+    "ts-03 luffy",
+    "ts-03 shanks",
+    "ts-03 hancock"
   ],
   "shops": [
     {
@@ -120,10 +148,6 @@
     {
       "name": "Zadoys - Display",
       "url": "https://zadoys.ch/collections/one-piece-display-englisch"
-    },
-    {
-      "name": "Zadoys - Display Französisch",
-      "url": "https://zadoys.ch/collections/one-piece-trading-card-game-display-franzosisch"
     },
     {
       "name": "Zadoys - 3rd Anniversary Set",
@@ -380,6 +404,42 @@
     {
       "name": "PokéUri - One Piece Englisch",
       "url": "https://pokeuri.ch/collections/one-piece-englisch"
+    },
+    {
+      "name": "CardCollectors - Pokemon 30th Celebration",
+      "url": "https://cardcollectors.ch/pokemon-30th-celebration-info-post-zur-poke-feier-bei-den-cardcollectors/"
+    },
+    {
+      "name": "Amazingtoys.ch - Pokemon 30th Anniversary",
+      "url": "https://amazingtoys.ch/Pokemon/30th-Anniversary/"
+    },
+    {
+      "name": "MaRo Games - Pokemon 30th Celebration",
+      "url": "https://www.maro-shop.ch/collections/30th-celebration"
+    },
+    {
+      "name": "Pokécado - Pokemon 30th Celebration",
+      "url": "https://www.pokecado.ch/collections/30th-celebration-kollektion-pokemon-tcg"
+    },
+    {
+      "name": "POKEBOKA",
+      "url": "https://pokeboka.ch/"
+    },
+    {
+      "name": "TwoMoons - Pokemon 30th Celebration Blog",
+      "url": "https://www.twomoons.ch/blog/30th-celebration-release"
+    },
+    {
+      "name": "Pikaversum - Pokemon (30th Celebration)",
+      "url": "https://pikaversum.ch/"
+    },
+    {
+      "name": "The Uncommon Shop - Pokemon",
+      "url": "https://theuncommonshop.ch/"
+    },
+    {
+      "name": "Poke Swiss - Pokemon 30th Celebration",
+      "url": "https://poke-swiss.ch/de/collections/precommande-pokemon-30th-celebration"
     }
   ],
   "unavailable_keywords": [
