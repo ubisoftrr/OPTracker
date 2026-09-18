@@ -440,6 +440,38 @@
     {
       "name": "Poke Swiss - Pokemon 30th Celebration",
       "url": "https://poke-swiss.ch/de/collections/precommande-pokemon-30th-celebration"
+    },
+    {
+      "name": "GGsGameshop",
+      "url": "https://ggsgameshop.ch/"
+    },
+    {
+      "name": "Toytans.ch",
+      "url": "https://www.toytans.ch/de/"
+    },
+    {
+      "name": "Pokemonkarten.ch (St. Gallen)",
+      "url": "https://www.pokemonkarten.ch/"
+    },
+    {
+      "name": "FramiCards (ex PokéStore, Aargau)",
+      "url": "https://www.pokestore.ch/"
+    },
+    {
+      "name": "Pokecard.store - Pokemon",
+      "url": "https://pokecard.store/"
+    },
+    {
+      "name": "RyuLand (Biel) - Pokemon 30th",
+      "url": "https://ryu.land/collections/pokemon"
+    },
+    {
+      "name": "Poke Swiss - Pokemon TCG allgemein",
+      "url": "https://poke-swiss.ch/de/collections/pokemon-tcg"
+    },
+    {
+      "name": "Cardmaniac.ch - Pokemon",
+      "url": "https://cardmaniac.ch/collections/pokemon"
     }
   ],
   "unavailable_keywords": [
