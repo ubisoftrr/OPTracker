@@ -78,7 +78,19 @@
     "mini tin pack set vol.3",
     "ts-03 luffy",
     "ts-03 shanks",
-    "ts-03 hancock"
+    "ts-03 hancock",
+    "heroines gift collection",
+    "heroine gift collection",
+    "heroines gift set",
+    "heroine gift set",
+    "one piece heroines gift",
+    "4th anniversary set",
+    "one piece 4th anniversary set",
+    "4th anniversary set english",
+    "4th anniversary set japanese",
+    "4周年",
+    "4周年セット",
+    "ヒロインズ"
   ],
   "shops": [
     {
@@ -436,10 +448,6 @@
     {
       "name": "Poke Swiss - Pokemon 30th Celebration",
       "url": "https://poke-swiss.ch/de/collections/precommande-pokemon-30th-celebration"
-    },
-    {
-      "name": "GGsGameshop",
-      "url": "https://ggsgameshop.ch/"
     },
     {
       "name": "Toytans.ch",
