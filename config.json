@@ -90,7 +90,37 @@
     "4th anniversary set japanese",
     "4周年",
     "4周年セット",
-    "ヒロインズ"
+    "ヒロインズ",
+    "gc-2026",
+    "gc2026",
+    "gift collection -one piece heroines-",
+    "one piece heroines gift collection",
+    "gift collection one piece heroines",
+    "dp13",
+    "dp-13",
+    "dp 13",
+    "double pack set vol.13",
+    "double pack set vol 13",
+    "double pack set 13",
+    "dp13 booster",
+    "dp-13 double pack",
+    "ib08",
+    "ib-08",
+    "ib 08",
+    "illustration box vol.8",
+    "illustration box vol 8",
+    "ib09",
+    "ib-09",
+    "ib 09",
+    "illustration box vol.9",
+    "illustration box vol 9",
+    "tin pack set vol.3",
+    "tin pack set vol 3",
+    "tin pack set vol.2",
+    "tin pack set vol 2",
+    "ts02",
+    "ts-02",
+    "ts 02"
   ],
   "shops": [
     {
@@ -476,6 +506,22 @@
     {
       "name": "Cardmaniac.ch - Pokemon",
       "url": "https://cardmaniac.ch/collections/pokemon"
+    },
+    {
+      "name": "Reymond TCG (Zürich) - Vorbestellungen",
+      "url": "https://reymond-tcg.ch/en/collections/vorbestellungen"
+    },
+    {
+      "name": "Reymond TCG - EB05/OP18 Display",
+      "url": "https://reymond-tcg.ch/en/products/one-piece-eb05-vorbestellen"
+    },
+    {
+      "name": "Captain Card - One Piece",
+      "url": "https://captaincard.ch/collections/one-piece-tcg"
+    },
+    {
+      "name": "CharacterStation (Genf) - One Piece JP",
+      "url": "https://www.characterstation.com/eshop/fr/262-cartes-one-piece-geneve-suisse"
     }
   ],
   "unavailable_keywords": [
